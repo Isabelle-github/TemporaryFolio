@@ -1,0 +1,49 @@
+/* Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
+@font-face {
+    font-family: AtheneFont;
+    src: url(../fonts/Athene.otf);
+}
+div{
+    font-family: AtheneFont;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: #efe8d7;
+    
+}
+header article{
+    border-bottom: 1px solid;
+    display: fixed;
+    padding: 0.5em;
+}
+header p{
+    margin-top: 0;
+    display: inline;
+    position: relative;
+}
+article p:nth-child(2){
+    position: relative;
+    left: 80%;
+}
+article p:first-child{
+    position:relative;
+    left: 10%;
+}
+header h1{
+    text-align: center;
+    border-bottom: 1px solid ;
+    width: 30%;
+    height: 1.5em;
+    margin: 0 auto;
+}
+header h1:nth-of-type(2) {
+    content: "";
+    
+  }
+header img{
+    display: block;
+    margin:4em auto;
+}
+
