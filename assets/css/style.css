@@ -1,49 +1,156 @@
 /* Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883 */
 @font-face {
-    font-family: AtheneFont;
+    font-family: "AtheneFont";
     src: url(../fonts/Athene.otf);
 }
 div{
-    font-family: AtheneFont;
+    font-family: "AtheneFont";
+    color: #282b29;
+    opacity: 0.6;
 }
 body{
     margin: 0;
+    font-family: "AtheneFont";
 }
+/* =====HEADER========== */
 header{
     background-color: #efe8d7;
-    
+    padding-top: 5%;
+    color: #002a5a;
 }
-header article{
+header div{
     border-bottom: 1px solid;
-    display: fixed;
     padding: 0.5em;
+    position: fixed;
+    top:0;
+    width: 100%;
 }
+
 header p{
     margin-top: 0;
     display: inline;
-    position: relative;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
-article p:nth-child(2){
-    position: relative;
-    left: 80%;
+div p:nth-child(2){
+    padding-left: 70%;
 }
-article p:first-child{
-    position:relative;
-    left: 10%;
+div p:first-child{
+    padding-left: 5%;
 }
 header h1{
     text-align: center;
-    border-bottom: 1px solid ;
-    width: 30%;
+    border-bottom: 1px solid;
+    width: 50%;
     height: 1.5em;
     margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight:lighter;
 }
-header h1:nth-of-type(2) {
+/* Line after Folie */
+header h1:nth-of-type(2) span::before{
+    display: inline-block;
     content: "";
-    
-  }
+    width: 2em;
+    background: #002a5a;
+    height: 3px;
+    position: relative;
+    bottom: 0.3em;
+}
+header h1:nth-of-type(2) span{
+   display: inline-block;
+}
+header h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight:lighter;
+    padding-right: 8em;
+    padding-bottom: 3em;
+    margin: 0;
+}
 header img{
     display: block;
-    margin:4em auto;
+    margin:2em auto;
+}
+header h3 span{
+    color: #282b29;
+    opacity: 0.6;
+}
+
+/* ========RELEASE========== */
+.release{
+    background-color: #F4C4C4;
+}
+.release p:first-child{
+    margin-top: 0;
+    opacity: 0.5;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+section p:first-child:before{
+   content: ".";
+}
+section h1{
+    text-transform: uppercase;
+    font-size:4em;
+    font-weight:lighter;
+    height: 1.5em;
+    width: 10%;
+    text-align: left;
+    margin: 0;
+}
+.release p:nth-of-type(2){
+    text-transform: uppercase;
+    width: 35%;
+    text-align: left;
+    padding-left: 50%;
+    opacity: 0.6;
+    font-size: 0.7em;
+    line-height: 2em;
+}
+.release p:nth-of-type(3){
+    text-transform: uppercase;
+    width: 35%;
+    text-align: left;
+    padding-left: 50%;
+    padding-bottom: 4em;
+    opacity: 0.6;
+    font-size: 0.7em;
+    line-height: 2em;
+}
+.release table{
+    text-align: right;
+    padding-left: 40%;
+    padding-bottom: 4em;
+    opacity: 0.6;
+    font-weight: lighter;
+    padding-right: 20%;
+}
+table tr td{
+    border: 1px solid #282b29;
+    border-top: none;
+    border-width: none;
+    border-left: none;
+    border-right: none;
+    height: 5em;
+}
+tr td:nth-of-type(2){
+    text-align:left; 
+    padding-left: 4em;
+}
+tr td:first-child{
+    text-transform: uppercase;
+}
+
+tr td:nth-of-type(3){
+    text-align:right; 
+    padding-left: 35%;
+}
+.release svg{
+    width: 7em;
+    padding-left: 76%;
+   
 }
 
