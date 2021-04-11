@@ -191,13 +191,14 @@ tr td:nth-of-type(3){
     opacity: 0.6;
     font-size: 0.7em;
     line-height: 2em;
+    padding-bottom: 4em;
 }
 /* Positioning Pictures and Titles  */
 .works div{
     margin: 0 auto;
     color:#7d2222;
     opacity: 1;
-    border-style: double;
+    border-style: none;
     width: 70%;
     height: 40%;
 }
@@ -236,4 +237,59 @@ tr td:nth-of-type(3){
     padding:0;
     margin: 0 0%;
     bottom: 50%;
+}
+/* ========FOOTER========== */
+footer{
+    color:#1d8883;
+    background-color: #D2D2D2;
+}
+footer p:first-child{
+    margin-top: 0;
+    opacity: 0.5;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+footer p:first-child:before{
+    content: ".";
+}
+footer h1{
+     text-transform: uppercase;
+     font-size:4em;
+     font-weight:lighter;
+     height: 1.5em;
+     width: 10%;
+     text-align: left;
+     margin: 0;
+}
+
+footer p:nth-of-type(2){
+     text-transform: uppercase;
+     width: 25%;
+     text-align: center;
+     padding-left: 0%;
+     margin: 0 auto;
+     opacity: 0.6;
+     font-size: 0.7em;
+     line-height: 2em;
+}
+
+footer nav{
+   text-align: right;
+   padding-right: 10%;
+   padding-bottom: 10%;
+   line-height: 2em;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    opacity: 0.6;
+    font-weight: lighter;
+    text-decoration: none;
+}
+nav ul a:link, nav ul a:visited{
+    color: #1d8883;
+}
+nav ul a:hover{
+    text-decoration: underline;
 }
