@@ -198,15 +198,42 @@ tr td:nth-of-type(3){
     color:#7d2222;
     opacity: 1;
     border-style: double;
-    width: 80%;
+    width: 70%;
+    height: 40%;
 }
-.works h2{
+.text_left h2{
     text-transform: uppercase;
     display: inline-block;
-    font-size: 2em;
-    width: 5em;
+    font-size: 1.5em;
+    width: 6em;
     position: relative;
+    padding:0;
+    margin: 0%;
+    text-align: left;
 }
-.works img{
+.text_left img{
     width: 50%;
+    position: relative;
+    padding-left: 40%;
+    margin: 0 0%;
+    bottom: 4em;
+}
+.text_right h2{
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1.5em;
+    width: 6em;
+    position: relative;
+    margin: 0 0%;
+    padding-left: 60%;
+    text-align: right;
+    bottom: 8.5em;
+}
+
+.text_right img{
+    width: 50%;
+    position: relative;
+    padding:0;
+    margin: 0 0%;
+    bottom: 50%;
 }
